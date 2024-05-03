@@ -1,6 +1,5 @@
-// Definindo variáveis para armazenar nome e experiência do herói
-let nomeHeroi = "Nome do Herói"; // Pode substituir por qualquer nome desejado
-let xpHeroi = 7000; // Pode substituir por qualquer valor de XP desejado
+let nomeHeroi = "Nome do Herói";
+let xpHeroi = 7000;
 
 // Utilizando uma estrutura de decisão para determinar o nível do herói com base na XP
 let nivelHeroi;
@@ -22,5 +21,5 @@ if (xpHeroi < 1000) {
     nivelHeroi = "Radiante";
 }
 
-// Exibindo a mensagem com o nome e o nível do herói
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
+// Exibe o Nome e o nível do herói
+console.log("O Herói de nome" + nomeHeroi + "está no nível de" + nivelHeroi);
