@@ -17,7 +17,7 @@ if (xpHeroi < 1000) {
     nivelHeroi = "Ascendente";
 } else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
     nivelHeroi = "Imortal";
-} else {
+} else {(xpHeroi >= 10001)
     nivelHeroi = "Radiante";
 }
 
