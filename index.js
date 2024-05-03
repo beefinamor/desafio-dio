@@ -1,7 +1,7 @@
-let nomeHeroi = "Nome do Herói";
+let nomeHeroi = "Avantika";
 let xpHeroi = 7000;
 
-// Utilizando uma estrutura de decisão para determinar o nível do herói com base na XP
+// Estrutura de decisão para determinar o nível do herói com base na XP
 let nivelHeroi;
 if (xpHeroi < 1000) {
     nivelHeroi = "Ferro";
@@ -22,4 +22,4 @@ if (xpHeroi < 1000) {
 }
 
 // Exibe o Nome e o nível do herói
-console.log("O Herói de nome" + nomeHeroi + "está no nível de" + nivelHeroi);
+console.log("A Heroína de nome " + nomeHeroi + " está no nível de " + nivelHeroi);
